@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e4c9b1;
+  font-family: system-ui;
+}
+
+header {
+  padding: 20px;
+  background-color: chocolate;
+}
+
+header a {
+  text-decoration: none;
+  margin-inline: 10px;
+}
+
+header a:hover {
+  color: aqua;
+  transition: all;
+  transition-duration: 200ms;
+}
+
+article {
+  width: 500px;
+  padding: 20px;
+  border: 2px solid rgb(231, 231, 193);
+  margin: 24px;
+  border-radius: 10px;
+  background-color: aquamarine;
+}
+
+article img {
+  width: 450px;
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 2px;
+}
+
+article h3 {
+  text-align: center;
+}
+
+article p {
+  text-wrap: pretty;
+}
+
+article time {
+  text-align: center;
+  font-size: small;
+}
+
+footer {
+  background-color: chocolate;
+  padding-block: 5px;
+  text-align: center;
+}
+
+.hero {
+  text-align: center;
+}
+
+.blog {
+  margin-block: 20px;
+  width: 100vw;
+  padding: 20px;
+}
+
+.blog article {
+  margin: 0 auto;
+  margin-block: 20px;
+}
